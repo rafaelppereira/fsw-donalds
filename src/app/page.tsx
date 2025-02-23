@@ -1,7 +1,13 @@
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 
 const HomePage = () => {
-  return <Button className="p-5 bg-cover bg-no-repeat text-red-500">TestandoooooooooOOOOOOOO</Button>
+  return (
+    <div>
+      <Button>MC Donalds</Button>
+      <Input placeholder="Digite qualquer coisa" />
+    </div>
+  )
 }
  
 export default HomePage;
